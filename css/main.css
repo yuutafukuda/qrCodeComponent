@@ -1,1 +1,34 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+body {
+  font-family: 'Outfit';
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #d5e1ef;
+}
+
+.container .main-content {
+  width: 320px;
+  margin: auto;
+  padding: 18px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.container .main-content img {
+  width: 288px;
+  border-radius: 10px;
+}
+
+.container .main-content .text-content h1 {
+  color: #223148;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container .main-content .text-content p {
+  font-size: 15px;
+}
+/*# sourceMappingURL=main.css.map */
